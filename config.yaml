@@ -1,0 +1,22 @@
+---
+
+#------------------------------------------------------------------------------
+# YAML Aliases to simplify maintenance
+
+anchorLinks:
+  - link: &grafana-home
+      url: "https://grafana.com/"
+      params: "time"
+
+#------------------------------------------------------------------------------
+# Panel Config
+
+cellIdPreamble: "cell-"
+cells: 
+  bola:
+    link:
+      url: "https://app.diagrams.net/?p=svgdata"
+  nuvem:
+    link:
+      url: "https://github.com/Bruna0092/Flowcharting/new/main"
+
